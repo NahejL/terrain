@@ -1,0 +1,12 @@
+[package]
+name = "terrain"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+wgpu = { git = "https://github.com/gfx-rs/wgpu", branch = "master" }
+winit = { git = "https://github.com/rust-windowing/winit", branch = "master" }
+waker-fn = "1.1.0"
+parking_lot = "0.12.1"
